@@ -7,9 +7,9 @@
 docker build  -t docker_fluentd .
 ```
 ### Run a simple image in your terminal
-'''
+```
  docker container run -it --rm --entrypoint /bin/bash docker_fluentd 
-'''
+```
 * --entrypoint - Overwrite the default ENTRYPOINT of the image, hear demands to use /bin/bash
 * -it - Keep STDIN open even if not attached
 * --rm - Automatically remove the container when it exits

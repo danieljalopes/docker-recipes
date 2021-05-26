@@ -1,4 +1,4 @@
-# docker-sheet-cheat
+# Docker Recipes
 
 ## Run already built docker image
 
